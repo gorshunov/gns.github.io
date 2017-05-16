@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Eurosti';
+	src: url('./Eurosti.eot');
+	src: local('Eurosti'), url('./Eurosti.woff') format('woff'), url('./Eurosti.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_3117">Text with this font applied</p> */
+.fontsforweb_fontid_3117 {
+	font-family: 'Eurosti' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

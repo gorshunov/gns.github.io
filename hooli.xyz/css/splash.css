@@ -1,0 +1,26 @@
+/* Splash panel section */
+.splash-panel-image {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+}
+
+.splash-panel-image.logo {
+  width: 254px;
+  height: 88px;
+  margin-left: -127px;
+  margin-top: -100px;
+}
+
+.splash-panel-image.subtitle {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 300;
+  left: 0;
+  letter-spacing: 7px;
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}

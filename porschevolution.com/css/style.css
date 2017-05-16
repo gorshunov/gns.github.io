@@ -1,0 +1,921 @@
+@charset "utf-8";
+	@font-face {
+	font-family: 'BebasRegular';
+	src: url('font/BEBAS___-webfont.eot');
+	src: url('font/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'), url('font/BEBAS___-webfont.woff') format('woff'), url('font/BEBAS___-webfont.ttf') format('truetype'), url('font/BEBAS___-webfont.svg#BebasRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html,body {
+	font-family: 'BebasRegular';
+	width: 100%;
+	height: 100%;
+}
+
+body{
+}
+
+.noscroll { position: fixed; overflow-y:scroll }
+
+.wrapper {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+#topbar{
+	height: 40px;
+	background: white;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+	margin-right: 10px;
+	display: none;
+	-webkit-box-shadow:0px 2px 3px rgba(0,0,0,0.3);
+	box-shadow:0px 2px 3px rgba(0,0,0,0.3);
+}
+
+#topbar-logo{
+	height: 22px;
+	vertical-align: middle;
+}
+
+.line {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+#slide1 .line {
+	height: 20%
+}
+
+.line div{
+	height: 100%;
+	width: 4px;
+	background: #ddd;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 156px;
+	position: fixed;
+	z-index: 999;
+	left: 50%;
+	margin-left: -78px;
+	padding-top: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Eurosti, Tahoma, Geneva,sans-serif;
+	font-style: italic;
+	color: #B13C3C;
+	font-weight: 900;
+	font-size: 25px;
+	text-align: center;
+	height: 40px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+#logo:hover {
+	background: #F2F2F2;
+
+}
+#logo span{
+	display: none;
+}
+#logo div {
+	font-family: Eurosti, Tahoma, Geneva,sans-serif;
+	font-style: italic;
+	color: #B13C3C;
+	font-weight: 900;
+	font-size: 25px;
+	text-align: center;
+}
+
+#author {
+	position: fixed;
+	z-index: 999;
+	right: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 2px 15px;
+	height: 40px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+#author div {
+	font-family: Eurosti, Tahoma, Geneva,sans-serif;
+	color: #040707;
+	font-weight: 900;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 9px;
+}
+
+#author:hover {
+	background: #F2F2F2;
+}
+
+#porschelogo {
+	padding: 0px;
+}
+
+#porsche-logo{
+	z-index: 2;
+	position: relative;
+}
+
+.volume{
+	font-family: eurosti;
+	color: rgba(113, 113, 113, 1);
+}
+.enjoy{
+	display: none;
+	font-family: eurosti;
+	color: rgba(113, 113, 113, 1);
+}
+.navigation {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	top: 50%;
+	margin-top: -259px;
+	text-align: center;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+
+.navigation li{
+	color:rgba(51, 51, 51, 0.65);
+	display:block;
+	padding: 0 10px;
+	line-height:37px;
+	font-weight:bold;
+	border-bottom:1px solid rgba(51, 51, 51, 0.65);
+	text-align:left;
+	width:53px;
+	padding-left: 28px;
+	cursor:pointer;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.navigation li span {
+	font-size: 70%;
+}
+.navigation li.active{
+	font-size:25px;
+	
+	width:100px!important;
+	line-height: 45px !important;
+	
+}
+
+.navigation li:hover{
+	padding-left: 24px;
+	font-size: 100%;
+	line-height: 37px !important;
+	
+}
+.navigation li.dark-menu{
+	color: rgba(255, 255, 255, 0.95) !important;
+	border-bottom: 1px solid rgba(242, 242, 242, 0.10)!important;
+	text-shadow: 0px 0px 4px black;
+}
+
+.navigation li.active.dark-menu{
+	color: white !important;
+	border-left: 4px solid #B13C3C;
+	padding-left: 20px;
+}
+.navigation li.dark-menu:hover{
+	color: #fff !important;
+	border-left: 4px solid #333333 !important;
+}
+.navigation li.light-menu{
+	color: rgba(51, 51, 51, 0.65) !important;
+	border-bottom: 1px solid rgba(51, 51, 51, 0.10) !important;
+}
+
+.navigation li.active.light-menu{
+	color:#333333 !important;
+	border-left: 4px solid #B13C3C !important;
+	padding-left: 20px;
+}
+.navigation li.light-menu:hover{
+	color: #333333 !important;
+	border-left: 4px solid #333333 !important;
+}
+.navigation li.active:hover{
+	border-left: 4px solid #B13C3C !important;
+	padding-left: 20px !important;
+	font-size: 25px !important;
+	width: 100px !important;
+	line-height: 45px !important;
+
+}
+.navigation .noborder{
+	border: none !important;
+	padding-left: 27px;
+}
+.navigation li.dark-menu.noborder:hover,.navigation li.light-menu.noborder:hover{
+	border-left: none !important;
+	padding-left: 27px;
+}
+.menulogo:hover{
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.slide {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+
+	/*-webkit-box-shadow: inset 0px 10px 10px rgba(0,0,0,0.3);
+	box-shadow: inset 0px 10px 10px rgba(0,0,0,0.3); */
+}
+.launchscreen{
+	width: 40%;
+}
+a.button0{
+	cursor: pointer;
+}
+.button {
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	z-index: 10;
+	bottom: 0px;
+	left: 48%;
+	background-image: url(../images/arrow.png);
+	background-color: rgba(0, 0, 0, 0.5);
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	cursor: pointer;
+}
+
+.button.button-active {
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	z-index: 10;
+	bottom: 0px;
+	left: 48%;
+	background-color: #333333;
+	background-image: url(../images/arrow.png);
+}
+
+.button:hover {
+	background-color: #B13C3C;
+	
+}
+
+.landingpage-interaction{
+		margin-top: 10%;
+			position: relative;
+	z-index: 3;
+}
+
+input#round {
+	padding: 0px 7px;
+	cursor: pointer;
+	border-radius: 9px;
+	background: none;
+	border: none;
+	color: rgba(113, 113, 113, 1);
+	font-size: 2.2em;
+	cursor: pointer;
+	text-transform: uppercase;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.blink {
+  animation: blink 4s steps(40, start) infinite;
+  -webkit-animation: blink 4s steps(40, start) infinite;
+  -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+
+	transition: all .2s ease-in-out;
+}
+@keyframes blink {
+ 	0% {color: rgba(113, 113, 113, 1);}
+	50% {color: rgba(113, 113, 113, 0.2),}
+}
+
+@-webkit-keyframes blink {
+    0% {color: rgba(113, 113, 113, 1)}
+	50% {color: rgba(113, 113, 113, 0.2)}
+}
+.flash {
+
+}
+
+.clickon{
+	display: none;
+	color: #B13C3C;
+	font-size: 18px;
+	font-family: eurosti;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.clickon .arrow{
+	margin-top: 10px;
+	font-size: 11px;
+	color: #717171;
+}
+
+.clickon:hover{
+	color: black;
+
+}
+
+.clickon .arrow.left{
+	-moz-transform: scale(-1, 1);
+	-webkit-transform: scale(-1, 1);
+	-o-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+	display: inline-block;
+}
+
+input#round.blink:hover{
+	-webkit-animation: none;
+	animation: none;
+}
+
+input#round:hover {
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	color: rgba(255, 255, 255, 0.95);
+	color: black;
+}
+
+input#round:hover,input#round:active,input#round:visited,input#round:focus {
+	background-color: none;
+	outline: none;
+}
+#floating-social{
+	position: fixed;
+	bottom: 30px;
+	right: 25px;
+	z-index: 999;
+}
+#mute {
+	position: fixed;
+	bottom: 25px;
+	left: 25px;
+	z-index: 999;
+	padding: 5px 7px 5px 7px;
+	background: black;
+	border-radius: 10px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	cursor: pointer;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+#mute:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+}
+
+#mute div {
+	height: 30px;
+	width: 30px;
+	background: url(../images/icons/mute_off.png) center center no-repeat;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+/*SLIDES*/
+#slide0 {
+	background: url(../images/slides/landingpage.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide1 {
+	background: url(../images/slides/porsche.jpg) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide2 {
+	background: url(../images/slides/1930.jpg) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide3 {
+	background: url(../images/slides/1950.jpg) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide4 {
+	background: url(../images/slides/1940.jpg) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide5 {
+	background: url(../images/slides/1960.jpg) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide6 {
+	background: url(../images/slides/1970.jpg) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide7 {
+	background: url(../images/slides/1980.jpg) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide8 {
+	background: url(../images/slides/1990.jpg) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide9 {
+	background: url(../images/slides/2000.jpg) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide10 {
+	background: url(../images/slides/2010.jpg) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide11 {
+	background: url(../images/slides/2020.jpg) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide12 {
+}
+
+/*Other*/
+.landingpage {
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding-top: 20%;
+	text-align: center;
+}
+
+.landingpage .porsche-logo {
+	text-align: center;
+	margin-top: 3%;
+}
+
+.intro {
+	width: 30%;
+	width: 340px;
+	display: block;
+	padding-top: 22%;
+	font-family: Eurosti, Tahoma, Geneva,sans-serif;
+	position: relative;
+	z-index: 4;
+	color: white;
+}
+
+.intro .name {
+	text-align: center;
+	font-size: 33px;
+	color: #B13C3C;
+}
+
+.intro p{
+	margin-bottom: 15px;
+}
+
+.intro-desc {
+	width: 80%;
+	text-align: justify;
+	font-size: 25px;
+	line-height: 30px;
+	margin: 20px auto 0 auto;
+}
+
+#ferdinand-porsche {
+	text-align: center;
+}
+
+#ferdinand-porsche img {
+	border: 4px #ddd solid;
+	border-radius: 10px;
+}
+
+.year {
+	width: 40%;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 0 auto;
+	overflow: auto;
+	position: relative;
+	top: 60px;
+	display: none;
+}
+
+.year-inner {
+	font-size: 200%;
+	font-weight: bold;
+	color: white;
+	float: left;
+	width: 21%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.year-inner span {
+	font-size: 50%;
+}
+
+.year-desc {
+	color: white;
+	font-family: Eurosti, Tahoma, Geneva,sans-serif;
+	text-align: justify;
+	float: left;
+	width: 74%;
+	font-size: 13pt;
+	border-left: 1px solid rgb(202, 202, 202);
+	padding-left: 15px;
+}
+
+.year-desc span {
+	font-size: 25px;
+	font-weight: bold;
+	color: rgb(177, 60, 60);
+}
+
+.year-shadow {
+	text-shadow: 0px 0px 50px black;
+}
+
+.dark {
+	color: #313131;
+}
+
+.wh {
+	color: white;
+}
+
+/* Overlay
+-------------------------*/
+#jpreOverlay {
+	background-color: #000;
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+}
+
+#jpreSlide {
+	font-size: 22px;
+	font-weight: bold;
+	color: #ccc;
+	text-align: center;
+	display: none;
+}
+
+#jpreLoader {
+	width: 500px;
+	top: 68% !important;
+}
+
+#jpreBar {
+	display: none;
+}
+
+#jprePercentage {
+	color: #ccc;
+	font-size: 2.2em;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 1px #333;
+	top: -100%;
+}
+
+#about1 {
+	font-family: Eurosti, Tahoma, Geneva,sans-serif;
+	background: white;
+	width: 100%;
+	padding-top: 45px;
+	border-bottom: 1px solid #E5E5E5;
+	display: table;
+	padding-bottom: 10px;
+}
+
+#about2 {
+	font-family: Eurosti, Tahoma, Geneva,sans-serif;
+	width: 100%;
+
+}
+
+.about-text {
+	margin: 0 auto;
+	width: 70%;
+	padding-top: 20px;
+	color: black;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 5%;
+	font-family: Eurosti, Tahoma, Geneva,sans-serif;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.about-text a {
+	color: #B13C3C;
+	text-decoration: none;
+}
+
+.about-title {
+	float: left;
+	text-align: right;
+	font-size: 43px;
+	font-weight: bold;
+	color: #B10909;
+	font-family: 'BebasRegular';
+	width: 20%;
+	line-height: 52px;
+	padding-top: 70px;
+}
+
+.about-title span {
+	color: black;
+}
+
+.about-text p {
+	padding-bottom: 25px;
+}
+
+.about-text p.disclaimer {
+	font-style: italic;
+	font-size: 14px;
+	padding: 10px 0;
+
+}
+.about-text p.social {padding-bottom: 10px;}
+
+.about-text #copyright{
+	margin-left: 23%;
+	margin-top: 20px;
+}
+iframe#twitter-widget-1{
+	vertical-align: bottom;
+}
+
+
+#dockContainer { position: fixed; top: 60px; left: 6px; }
+#jqDock { position: relative; bottom: 48px; }
+.jqDockLabel { background: #333; color: #fff; padding: 3px 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; }
+
+.rotate{
+ 	display: none;
+	position: fixed;
+	z-index: 999999;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.90);
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	padding-top: 200px;
+ }
+ .rotate img{
+ 	margin-bottom: 10px;
+ }
+
+/* Landscape phone to portrait tablet */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+	.noscroll{
+		position: static; 
+		overflow-y:auto;
+	}
+	.launchscreen {
+		width: 70%;
+	} 
+	.clickon{
+		display: none !important;
+	}
+	.landingpage{
+		padding-top: 10%;
+	}
+	.landingpage-interaction{
+		margin-top: 0px;
+	}
+	.navigation{
+		margin-top: 50px;
+		top: 0;
+	}
+	.navigation li{
+		line-height: 25px;
+		width: 45px;
+		padding-left: 15px;
+		font-size: 14px;
+	}
+	.navigation li:hover{
+		padding-left: 11px;
+		line-height: 25px;
+	}
+	.navigation li.active,.navigation li.active:hover {
+		font-size: 19px !important;
+		width: 53px!important;
+		line-height: 30px !important;
+	}
+	.navigation li.active.dark-menu,.navigation li.active.light-menu{
+		padding-left: 11px!important;
+	}
+	.menulogo{
+		display: none;
+
+	}
+	#mute{
+		right: 25px;
+		left: auto;
+	}
+	.slide{
+		background-attachment: scroll;
+	}
+	.intro{
+		padding-top: 50px;
+		text-shadow: 1px 2px 8px black;
+		width: 100%;
+	}
+	.intro-desc{
+		font-size: 20px;
+		margin: 0 auto;
+	}
+	.year{
+		width: 100%;
+		top: 60px;
+		padding: 0px 13%;
+	}
+	.year-inner{
+		display: none;
+	}
+	.year-desc{
+		width: 100%;
+		padding-left: 0px;
+		border: none;
+		font-size: 11pt;
+	}
+	.year-desc span{
+		font-size: 20px;
+	}
+	.about-title{
+		float: auto;
+		text-align: left;
+		width: auto;
+		font-size: 30px;
+		line-height: auto;
+		padding-top: 20px;
+	}
+	.about-text{
+		width: auto;
+		margin-left: 0px;
+		font-size: 18px;
+		padding-top: 0px;
+	}
+}
+@media only screen and (max-device-width : 768px) and (orientation : portrait) {
+	.rotate{
+		display: block;
+	}
+}
+/* Landscape phone to portrait tablet */
+@media (min-width: 480px) and (max-width: 979px) { 
+	#mute{
+		right: 25px;
+		left: auto;
+	}
+	.navigation{
+		margin-top: 60px;
+		top: 0;
+	}
+	span.volume{
+
+	}
+	span.enjoy{
+		
+	}
+	.year{
+		width: 70%;
+		top: 60px;
+		padding: 0px;
+	}
+	.about-title{
+		float: auto;
+		text-align: left;
+		width: auto;
+		font-size: 30px;
+		line-height: auto;
+		padding-top: 20px;
+	}
+	.about-text{
+		width: auto;
+		margin-left: 0px;
+		font-size: 18px;
+		padding-top: 0px;
+	}
+}	

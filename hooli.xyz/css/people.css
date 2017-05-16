@@ -1,0 +1,41 @@
+.people-panels.panel-header {
+  background: #f14400;
+}
+
+.people-panels.software-people {
+  background-image: url("../assets/photo-cool-people-playing-guitar.jpg");
+}
+
+.software-people-text-pane {
+  display: table;
+  width: 50%;
+  height: 100%;
+}
+
+.software-people-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 100px;
+}
+
+.core-competencies-panel {
+  padding: 75px 0;
+}
+
+.core-competencies-text {
+  margin: 0 200px;
+}
+
+@media (max-width: 1024px) {
+  .core-competencies-text {
+    margin: 0;
+  }
+
+  .software-people-text {
+    padding-left: 10px;
+  }
+}
+
+.people-panels.thumbs-up-panel {
+  background-image: url("../assets/photo-cool-people-thumbs-up.jpg");
+}
