@@ -1,0 +1,273 @@
+#EXTM3U url-tvg="http://programtv.ru/jtv.zip"
+#EXTINF:0 tvg-name="dozhd",Дождь
+udp://@239.1.9.19:1234
+#EXTINF:0 tvg-name="podmoskovie", 360 Подмосковье
+udp://@239.1.9.46:1234
+#EXTINF:-1 ,FOX Life
+udp://@239.1.10.5:1234
+#EXTINF:-1 ,FOX
+udp://@239.1.10.6:1234
+#EXTINF:0 tvg-name="tlum-hd",Тлум HD
+udp://@239.1.10.17:1234
+#EXTINF:-1 ,National Geographic
+udp://@239.1.10.29:1234
+#EXTINF:-1 ,RU.TV
+udp://@239.1.10.37:1234
+#EXTINF:-1 ,Nat Geo Wild HD
+udp://@239.1.11.26:1234
+#EXTINF:-1 ,Nat Geo Wild
+udp://@239.1.11.27:1234
+#EXTINF:-1 ,Беларусь 24
+udp://@239.1.11.28:1234
+#EXTINF:-1 ,National Geographic HD
+udp://@239.1.11.50:1234
+#EXTINF:-1 ,FOX Life HD
+udp://@239.1.11.51:1234
+#EXTINF:-1 ,FOX HD
+udp://@239.1.11.52:1234
+#EXTINF:-1 ,TV TOP SHOP
+udp://@239.1.12.4:1234
+#EXTINF:-1 ,Powernet
+udp://@239.1.8.19:1234
+#EXTINF:-1 ,Волгоград 1
+udp://@239.1.8.21:1234
+#EXTINF:-1 ,Волгоград 24
+udp://@239.1.8.22:1234
+#EXTINF:-1 ,МТВ
+udp://@239.1.8.77:1234
+#EXTINF:-1 ,РБК
+udp://@239.1.9.50:1234
+#EXTINF:-1 ,Первый канал
+udp://@239.1.8.1:1234
+#EXTINF:-1 ,Карусель
+udp://@239.1.8.3:1234
+#EXTINF:-1 ,МАТЧ!
+udp://@239.1.8.4:1234
+#EXTINF:-1 ,Культура
+udp://@239.1.8.6:1234
+#EXTINF:0 tvg-name="ntv",НТВ
+udp://@239.1.8.7:1234
+#EXTINF:0 tvg-name="piter",5 канал
+udp://@239.1.8.8:1234
+#EXTINF:-1 ,ОТР
+udp://@239.1.8.18:1234
+#EXTINF:-1 ,Мир
+udp://@239.1.8.24:1234
+#EXTINF:-1 ,Спас
+udp://@239.1.8.27:1234
+#EXTINF:-1 ,Домашний
+udp://@239.1.9.1:1234
+#EXTINF:-1 ,СТС
+udp://@239.1.9.2:1234
+#EXTINF:-1 ,ТНТ
+udp://@239.1.9.3:1234
+#EXTINF:-1 ,РЕН ТВ
+udp://@239.1.9.4:1234
+#EXTINF:-1 ,ТВ Центр
+udp://@239.1.9.8:1234
+#EXTINF:-1 ,Звезда
+udp://@239.1.9.17:1234
+#EXTINF:-1 ,ТВ3
+udp://@239.1.10.2:1234
+#EXTINF:-1 ,Пятница
+udp://@239.1.10.11:1234
+#EXTINF:0 tvg-name="muz-tv",МУЗ-ТВ
+udp://@239.1.10.30:1234
+#EXTINF:-1 ,Россия 1
+udp://@239.1.8.2:1234
+#EXTINF:-1 ,Россия 24
+udp://@239.1.8.5:1234
+#EXTINF:0 tvg-name="8-kanal",8 канал
+udp://@239.1.8.9:1234
+#EXTINF:-1 ,Синергия ТВ
+udp://@239.1.8.15:1234
+#EXTINF:-1 ,Русский роман
+udp://@239.1.11.14:1234
+#EXTINF:-1 ,Русский бестселлер
+udp://@239.1.11.16:1234
+#EXTINF:-1 ,Мама
+udp://@239.1.11.29:1234
+#EXTINF:-1 ,Живая планета
+udp://@239.1.11.33:1234
+#EXTINF:0 tvg-name="24texno",24Техно
+udp://@239.1.11.36:1234
+#EXTINF:0 tvg-name="nstv",НСТ
+udp://@239.1.11.37:1234
+#EXTINF:0 tvg-name="krasnaya-liniya",Красная линия
+udp://@239.1.8.10:1234
+#EXTINF:-1 ,Мир 24
+udp://@239.1.8.25:1234
+#EXTINF:-1 ,РБК
+udp://@239.1.9.5:1234
+#EXTINF:-1 ,Disney
+udp://@239.1.9.6:1234
+#EXTINF:0 tvg-name="muztv",Ю
+udp://@239.1.9.13:1234
+#EXTINF:-1 ,Nickelodeon
+udp://@239.1.9.15:1234
+#EXTINF:-1 ,TNV
+udp://@239.1.9.43:1234
+#EXTINF:-1 ,Мир HD
+udp://@239.1.9.49:1234
+#EXTINF:-1 ,2x2
+udp://@239.1.10.1:1234
+#EXTINF:0 tvg-name="set-hd",Sony Channel Russia
+udp://@239.1.10.7:1234
+#EXTINF:0 tvg-name="sony-scifi",Sony Sci-Fi Россия
+udp://@239.1.10.8:1234
+#EXTINF:0 tvg-name="game-show",Game Show
+udp://@239.1.10.18:1234
+#EXTINF:0 tvg-name="paramount_comedy",Paramount comedy
+udp://@239.1.10.33:1234
+#EXTINF:-1 ,ВМЕСТЕ-РФ
+udp://@239.1.8.11:1234
+#EXTINF:0 tvg-name="rossiya-hd",Россия 1 HD
+udp://@239.1.9.34:1234
+#EXTINF:0 tvg-name="russkij-extreme",Русский экстрим
+udp://@239.1.11.38:1234
+#EXTINF:0 tvg-name="grozny",Грозный
+udp://@239.1.8.16:1234
+#EXTINF:-1 ,История
+udp://@239.1.8.17:1234
+#EXTINF:-1 ,Комедия
+udp://@239.1.9.24:1234
+#EXTINF:-1 ,Моя планета
+udp://@239.1.10.27:1234
+#EXTINF:0 tvg-name="nauka",Наука 2.0
+udp://@239.1.10.28:1234
+#EXTINF:0 tvg-name="mult",Мульт
+udp://@239.1.10.35:1234
+#EXTINF:-1 ,Русский детектив
+udp://@239.1.11.12:1234
+#EXTINF:-1 ,Сарафан
+udp://@239.1.11.32:1234
+#EXTINF:0 tvg-name="kino-tv",КиноТВ
+udp://@239.1.11.34:1234
+#EXTINF:0 tvg-name="lifenews",LifeNews
+udp://@239.1.8.20:1234
+#EXTINF:-1 ,Россия 24
+udp://@239.1.8.30:1234
+#EXTINF:0 tvg-name="tnt-music",ТНТ Music
+udp://@239.1.9.9:1234
+#EXTINF:0 tvg-name="nano",NANO TV
+udp://@239.1.9.18:1234
+#EXTINF:0 tvg-name="topsong",Bridge TV Classic
+udp://@239.1.9.22:1234
+#EXTINF:0 tvg-name="tvoi-dom",Твой дом
+udp://@239.1.9.32:1234
+#EXTINF:-1 ,Первый Канал HD
+udp://@239.1.9.36:1234
+#EXTINF:0 tvg-name="luxury",Luxury World
+udp://@239.1.9.37:1234
+#EXTINF:-1 ,Shop and Show
+udp://@239.1.9.38:1234
+#EXTINF:0 tvg-nme="tiji",TiJi
+udp://@239.1.9.39:1234
+#EXTINF:-1 ,Мир Увлечений
+udp://@239.1.9.47:1234
+#EXTINF:0 tvg-name="rtg-hd",RTG HD
+udp://@239.1.10.20:1234
+#EXTINF:0 tvg-name="dange",Bridge TV Dance
+udp://@239.1.10.34:1234
+#EXTINF:-1 ,Discovery Science
+udp://@239.1.11.2:1234
+#EXTINF:-1 ,Animal Planet HD
+udp://@239.1.11.3:1234
+#EXTINF:-1 ,ID Xtra
+udp://@239.1.11.5:1234
+#EXTINF:0 tvg-name="DTX",DTX
+udp://@239.1.11.6:1234
+#EXTINF:-1 ,Amedia 1
+udp://@239.1.11.18:1234
+#EXTINF:-1 ,Живая Природа HD
+udp://@239.1.11.20:1234
+#EXTINF:-1 ,Матч ТВ HD
+udp://@239.1.11.39:1234
+#EXTINF:-1 ,9 Волна
+udp://@239.1.8.23:1234
+#EXTINF:-1 ,ПРОСВЕЩЕНИЕ
+udp://@239.1.8.26:1234
+#EXTINF:0 tvg-name="vgus",В гостях у сказки
+udp://@239.1.9.7:1234
+#EXTINF:-1 ,Европа Плюс ТВ
+udp://@239.1.9.11:1234
+#EXTINF:-1 ,World Fashion
+udp://@239.1.9.14:1234
+#EXTINF:-1 ,365 дней ТВ
+udp://@239.1.9.20:1234
+#EXTINF:-1 ,ИНДИЙСКОЕ КИНО
+udp://@239.1.9.21:1234
+#EXTINF:-1 ,Nick Jr.
+udp://@239.1.9.25:1234
+#EXTINF:-1 ,МУЖСКОЕ КИНО
+udp://@239.1.9.27:1234
+#EXTINF:-1 ,Ля-минор ТВ
+udp://@239.1.9.28:1234
+#EXTINF:-1 ,Ностальгия
+udp://@239.1.9.42:1234
+#EXTINF:-1 ,Кухня ТВ
+udp://@239.1.10.12:1234
+#EXTINF:-1 ,Авто Плюс
+udp://@239.1.10.14:1234
+#EXTINF:-1 ,МАТЧ! АРЕНА HD
+udp://@239.1.10.15:1234
+#EXTINF:-1 ,МАТЧ! ИГРА
+udp://@239.1.10.16:1234
+#EXTINF:-1 ,МАТЧ! БОЕЦ
+udp://@239.1.10.22:1234
+#EXTINF:-1 ,RTG TV
+udp://@239.1.10.23:1234
+#EXTINF:-1 ,Discovery Channel HD
+udp://@239.1.11.1:1234
+#EXTINF:-1 ,TLC HD
+udp://@239.1.11.4:1234
+#EXTINF:-1 ,КХЛ HD
+udp://@239.1.11.30:1234
+#EXTINF:0 tvg-name="russkaya-noch", Русская ночь
+udp://@239.1.11.53:1234
+#EXTINF:-1 ,НАШ ФУТБОЛ HD
+udp://@239.1.11.54:1234
+#EXTINF:-1 ,КИНОМИКС
+udp://@239.1.12.11:1234
+#EXTINF:-1 ,МАТЧ! ФУТБОЛ 1 HD
+udp://@239.1.12.16:1234
+#EXTINF:-1 ,МАТЧ! ФУТБОЛ 2 HD
+udp://@239.1.12.17:1234
+#EXTINF:-1 ,МАТЧ! ФУТБОЛ 3 HD
+udp://@239.1.12.18:1234
+#EXTINF:-1 ,EUROSPORT 1 HD
+udp://@239.1.13.1:1234
+#EXTINF:-1 ,Астрахань 24
+udp://@239.1.8.28:1234
+#EXTINF:-1 ,Россия 1
+udp://@239.1.8.31:1234
+#EXTINF:-1 ,BRIDGE TV
+udp://@239.1.9.10:1234
+#EXTINF:-1 ,RUSONG TV
+udp://@239.1.9.12:1234
+#EXTINF:-1 ,Еда HD
+udp://@239.1.9.23:1234
+#EXTINF:0 tvg-name="ohotnik-i-rybolov-hd",Охотник и рыболов HD
+udp://@239.1.9.35:1234
+#EXTINF:-1 ,Рыжий
+udp://@239.1.9.40:1234
+#EXTINF:-1 ,Тонус ТВ
+udp://@239.1.9.41:1234
+#EXTINF:-1 ,Кинопоказ
+udp://@239.1.10.9:1234
+#EXTINF:-1 ,Охотник и рыболов
+udp://@239.1.10.13:1234
+#EXTINF:-1 ,Загородный ТВ
+udp://@239.1.10.24:1234
+#EXTINF:-1 ,Zoo TV
+udp://@239.1.10.25:1234
+#EXTINF:-1 ,Телепутешествия
+udp://@239.1.10.26:1234
+#EXTINF:-1 ,СТС Love
+udp://@239.1.9.45:1234
+#EXTINF:-1 ,Че
+udp://@239.1.9.77:1234
+#EXTINF:0 tvg-name="tnt4",ТНТ4
+udp://@239.1.10.3:1234
+#EXTINF:0 tvg-name="FrenchLover", French Lover
+udp://@239.1.13.4:1234
