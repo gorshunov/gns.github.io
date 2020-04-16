@@ -2576,7 +2576,7 @@
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaf8 !important; // #4acaa8 
+							color: #4acaf8 !important; // #4acaa8
 						}
 
 					#header > nav ul li:first-child {
@@ -2624,7 +2624,7 @@
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		padding: 1em 0 0 0;
 	}
 
 		#footer .copyright {
@@ -2928,11 +2928,11 @@
 			}
 
 			header.major h2 {
-				font-size: 2.5em;
+				font-size: 2em;
 			}
 
 				header.major h2 + p {
-					font-size: 1.5em;
+					font-size: 0.5em;
 				}
 
 		/* Features */
